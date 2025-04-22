@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    padding: 0rem;
+   
+}
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  nav a {
+    text-decoration: none;
+   
+    color: rgb(90, 102, 114);
+    padding: 0.4rem 0.8rem;
+    margin-left: 0.5rem;
+    border-radius: 0.4rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  

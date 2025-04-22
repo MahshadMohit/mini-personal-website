@@ -1,0 +1,102 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.178);
+    max-width: 43.75rem;
+    margin: 2rem auto;
+    text-align: center;
+
+}
+
+body > div > img {
+    align-self: center;
+    width: 18rem;
+    height: 15rem;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+    margin-top: 0; 
+}
+
+body > div > img:hover {
+    transform: scale(1.05);
+}
+
+
+
+body > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+body > div > div:hover {
+    transform: scale(1.05);
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 0.313rem;
+    text-align:center;
+    padding-left: 1.25rem;
+    color: rgba(27, 17, 96, 0.783);
+}
+
+h2 {
+    font-size: 1.25rem;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+}
+
+blockquote {
+    font-style: italic;
+    color: #666;
+    border-left: 4px solid #007bff;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0.5rem;
+    font-size: 1rem;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+a img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.3rem;
+    transition: transform 0.3s ease;
+}
+
+a img:hover {
+    transform: scale(1.2);
+}
+
